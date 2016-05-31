@@ -1,0 +1,9 @@
+#compdef lualatex
+
+_lualatex() {
+  _arguments \
+    '(- *)'--help'[display help and exit]' \
+    '(- *)'--version'[display version and exit]' \
+    --fmt='[load the format file FORMAT]:FORMAT:(luajitlatex.fmt)' \
+    '*: :_files -g "*.tex"'
+}
