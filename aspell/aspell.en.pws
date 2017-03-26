@@ -1,8 +1,9 @@
-personal_ws-1.1 en 99 utf-8
+personal_ws-1.1 en 102 utf-8
 AAMD
 BHJ
 CGMD
 Cahn
+DFS
 DMC
 FRM
 Föster
@@ -52,6 +53,7 @@ discretization
 eV
 efficiencies
 electrochemical
+entropic
 ethylhexyloxy
 exciton
 excitons
@@ -97,4 +99,5 @@ stochastically
 th
 thiophene
 translational
+unported
 vinylene
