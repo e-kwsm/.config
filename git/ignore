@@ -1,12 +1,17 @@
 *~
+*.save
+*.swp
+
+# C++ {{{1
 *.d
 *.o
 *.out
-*.save
-*.swp
 tags
 
-#tex
+# python {{{1
+__pycache__
+
+# tex {{{1
 *.aux
 *.bbl
 *.bcf
