@@ -1,5 +1,5 @@
 [Default Applications]
-application/pdf=evince.desktop;acroread.desktop
+application/pdf=evince.desktop
 image/gif=eog.desktop
 image/jpeg=eog.desktop
 image/png=eog.desktop
