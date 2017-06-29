@@ -9,13 +9,14 @@
 	status = on
 	ui = auto
 [core]
-	editor = vim
 	excludesfile = ~/.config/git/ignore
 	pager = less -R
 [difftool "diffpdf"]
 	cmd = diffpdf \"$LOCAL\" \"$REMOTE\"
 [merge]
 	tool = vimdiff
+[push]
+	default = simple
 [user]
 	name = E Kawashima
 	email = e-kwsm@users.noreply.github.com
