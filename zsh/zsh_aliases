@@ -1,14 +1,14 @@
 if [ -x /usr/bin/dircolors ]; then
-    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto'
-    alias dir='dir --color=auto'
-    alias vdir='vdir --color=auto'
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls --color=auto'
+  alias dir='dir --color=auto'
+  alias vdir='vdir --color=auto'
 
-    GREP_OPTIONS='-I --color=auto'
-    alias grep="grep ${GREP_OPTIONS}"
-    alias egrep="egrep ${GREP_OPTIONS}"
-    alias fgrep="fgrep ${GREP_OPTIONS}"
-    alias zgrep="zgrep ${GREP_OPTIONS}"
+  GREP_OPTIONS='-I --color=auto'
+  alias grep="grep ${GREP_OPTIONS}"
+  alias egrep="egrep ${GREP_OPTIONS}"
+  alias fgrep="fgrep ${GREP_OPTIONS}"
+  alias zgrep="zgrep ${GREP_OPTIONS}"
 fi
 
 alias YYYYMMDD='date +"%Y%m%d"'
