@@ -13,6 +13,8 @@
 	pager = less -R
 [difftool "diffpdf"]
 	cmd = diffpdf \"$LOCAL\" \"$REMOTE\"
+[log]
+	date = iso
 [merge]
 	tool = vimdiff
 [push]
@@ -20,3 +22,4 @@
 [user]
 	name = E Kawashima
 	email = e-kwsm@users.noreply.github.com
+	signingkey = e-kwsm@users.noreply.github.com
