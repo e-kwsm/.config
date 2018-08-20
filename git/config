@@ -1,18 +1,22 @@
 [alias]
 	ci = commit
 	co = checkout
+	egrep = grep -E
+	fgrep = grep -F
 	st = status
 [color]
-	branch = on
-	diff = on
-	grep = on
-	status = on
+	branch = true
+	diff = true
+	grep = true
+	status = true
 	ui = auto
 [core]
 	excludesfile = ~/.config/git/ignore
 	pager = less -R
 [difftool "diffpdf"]
 	cmd = diffpdf \"$LOCAL\" \"$REMOTE\"
+[grep]
+	lineNumber = true
 [log]
 	date = iso
 [merge]
