@@ -10,9 +10,14 @@
 	grep = true
 	status = true
 	ui = auto
+[commit]
+	gpgsign = true
 [core]
+	abbrev = 12
 	excludesfile = ~/.config/git/ignore
 	pager = less -R
+[diff]
+	algorithm = histogram
 [difftool "diffpdf"]
 	cmd = diffpdf \"$LOCAL\" \"$REMOTE\"
 [grep]
