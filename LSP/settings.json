@@ -1,0 +1,8 @@
+{
+  "pyls": {
+    "configurationSources": [
+      "pycodestyle",
+      "flake8"
+    ]
+  }
+}
