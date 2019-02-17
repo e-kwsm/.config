@@ -10,6 +10,7 @@ tags
 
 # python {{{1
 __pycache__
+.mypy_cache/
 
 # tex {{{1
 *.aux
