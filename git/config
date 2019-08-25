@@ -1,8 +1,9 @@
 [alias]
 	ci = commit
 	co = checkout
-	egrep = grep -E
-	fgrep = grep -F
+	egrep = grep -EI
+	fgrep = grep -FI
+	grep = grep -I
 	st = status
 [color]
 	branch = true
@@ -29,6 +30,6 @@
 [push]
 	default = simple
 [user]
-	name = E Kawashima
+	name = Eisuke Kawashima
 	email = e-kwsm@users.noreply.github.com
 	signingkey = e-kwsm@users.noreply.github.com
