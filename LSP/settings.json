@@ -1,8 +1,15 @@
 {
   "pyls": {
     "configurationSources": [
-      "pycodestyle",
-      "flake8"
-    ]
-  }
+      "flake8",
+      "pycodestyle"
+    ],
+    "plugins":
+    {
+        "pyls_mypy":
+        {
+            "enabled": true,
+            "live_mode": false
+        }
+    }
 }
