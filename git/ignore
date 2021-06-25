@@ -1,26 +1,49 @@
 *~
+*.bak
 *.save
 *.swp
 
-# C++ {{{1
+# C/C++ {{{1
+*.a
 *.d
+*.la
+*.lo
 *.o
 *.out
-tags
+*.pch
+*.so
+.cache/clangd/
+compile_commands.json
+
+# Fortran {{{1
+*.mod
+*.smod
 
 # python {{{1
-__pycache__
+*.pyc
 .mypy_cache/
+__pycache__/
 
 # tex {{{1
+*-eps-converted-to.pdf
+*.acr
 *.aux
 *.bbl
 *.bcf
 *.blg
+*.dpth
+*.fls
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
 *.nav
+*.run.xml
 *.snm
 *.toc
-*.run.xml
 *.vrb
 *.xdv
-*-eps-converted-to.pdf
+*.xdy
+_minted-*/

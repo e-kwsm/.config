@@ -27,6 +27,7 @@
 	date = iso
 [merge]
 	tool = nvim
+	conflictstyle = diff3
 [mergetool "nvim"]
 	cmd = "nvim -d -c \"4wincmd w | wincmd J\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\""
 [pull]
@@ -35,5 +36,6 @@
 	default = simple
 [user]
 	name = Eisuke Kawashima
-	email = e-kwsm@users.noreply.github.com
-	signingkey = e-kwsm@users.noreply.github.com
+	#email = e-kwsm@users.noreply.github.com
+	#email = 2618741-e-kwsm@users.noreply.gitlab.com
+	#signingkey = e-kwsm@users.noreply.github.com
