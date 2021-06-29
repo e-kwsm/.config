@@ -1,0 +1,42 @@
+#compdef sphinx-build
+
+_sphinx-build() {
+  typeset -a builders=(
+    html
+    dirhtml
+    singlehtml
+    pickle
+    json
+    htmlhelp
+    qthelp
+    devhelp
+    epub
+    latex
+    latexpdf
+    latexpdfja
+    text
+    man
+    texinfo
+    info
+    gettext
+    changes
+    xml
+    pseudoxml
+    linkcheck
+    doctest
+    coverage
+    clean
+  )
+
+  _arguments \
+    '(- *)'{-h,--help}'[show this help message and exit]' \
+    '(- *)'--version"[show program's version number and exit]" \
+    -b"[builder to use]:BUILDER:_values BUILDER $builders" \
+    -M"[Uses the Sphinx make_mode module]:BUILDER:_values BUILDER $builders help" \
+    -j'[in parallel with N processes where possible (special value "auto" will set N to cpu-count)]:N' \
+    "1:sourcedir:_path_files -/" \
+    "2:outputdir:_path_files -/" \
+    "*:filenames:"
+}
+
+# vim:ft=zsh
