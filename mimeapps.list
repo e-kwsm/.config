@@ -1,9 +1,10 @@
 [Default Applications]
-application/pdf=evince.desktop
-image/gif=eog.desktop
-image/jpeg=eog.desktop
-image/png=eog.desktop
-image/svg+xml=eog.desktop
+application/pdf=org.gnome.Evince.desktop
+image/gif=org.gnome.eog.desktop
+image/jpg=org.gnome.eog.desktop
+image/jpeg=org.gnome.eog.desktop
+image/png=org.gnome.eog.desktop
+image/svg+xml=org.gnome.eog.desktop
 text/html=chromium.desktop
 x-scheme-handler/http=chromium.desktop
 x-scheme-handler/https=chromium.desktop
