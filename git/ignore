@@ -15,6 +15,9 @@
 .cache/clangd/
 compile_commands.json
 
+# CMake {{{1
+CMakeUserPresets.json
+
 # Fortran {{{1
 *.mod
 *.smod
