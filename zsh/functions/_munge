@@ -22,4 +22,38 @@ _arguments \
   '(-S --socket=)'{-S,--socket=}'[Specify local domain socket for munged]:STRING' \
   && :
 
+: << CIPHER
+Cipher types:
+
+  none (0)
+  default (1)
+  blowfish (2)
+  cast5 (3)
+  aes128 (4)
+  aes256 (5)
+
+CIPHER
+
+: << MAC
+MAC types:
+
+  default (1)
+  md5 (2)
+  sha1 (3)
+  ripemd160 (4)
+  sha256 (5)
+  sha512 (6)
+
+MAC
+
+: << ZIP
+Compression types:
+
+  none (0)
+  default (1)
+  bzlib (2)
+  zlib (3)
+
+ZIP
+
 # vim:ft=zsh
