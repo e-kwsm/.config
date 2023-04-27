@@ -234,7 +234,7 @@ _arguments \
   '(- *)'--citation'[Print citation information and exit]' \
   '(- *)'--license'[Print license header and exit]' \
   '(- *)'{-h,--help}'[Show this help message]' \
-  '*:input:_files -g "*.xyz"'
+  '*:input:_files -g "(CONTCAR|POSCAR|*.(mol|sdf|vasp|xyz))"'
 
 : << EOF
 Usage: dftd4 [options] <input>
