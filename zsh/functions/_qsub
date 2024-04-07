@@ -1,9 +1,0 @@
-#compdef qsub
-
-_arguments \
-  '(- *)'--help \
-  '(- *)'--version \
-  -h'[Specifies that a user hold be applied to the job at submission time]' \
-  '*:script:_files -g "*.(bash|sh)"'
-
-# vim:ft=zsh
