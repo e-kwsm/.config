@@ -3,6 +3,8 @@
 *.save
 *.swp
 
+*.AppImage
+
 # C/C++ {{{1
 *.a
 *.d
