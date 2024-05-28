@@ -27,6 +27,7 @@ CMakeUserPresets.json
 # python {{{1
 *.pyc
 .mypy_cache/
+.tox/
 __pycache__/
 
 # tex {{{1
