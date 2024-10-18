@@ -29,7 +29,8 @@
 	tool = nvim
 	conflictstyle = diff3
 [mergetool "nvim"]
-	cmd = "nvim -u NORC -d -c \"4wincmd w | wincmd J\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\""
+	# GIT_MERGETOOL_VIMDIFF_DEBUG
+	cmd = "nvim -u NONE -c \"set hidden | leftabove split | leftabove vertical split | 1b | set readonly | wincmd l | leftabove vertical split | 2b | set readonly | wincmd l | 3b | set readonly | wincmd j | 4b | execute 'tabdo windo diffthis' | tabfirst\" \"$LOCAL\" \"$BASE\" \"$REMOTE\" \"$MERGED\""
 [pull]
 	ff = only
 [push]
