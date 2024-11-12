@@ -1,4 +1,5 @@
 /GIMP/
+/QtProject.conf
 /Slack/
 /asciinema/
 /dconf/
@@ -9,4 +10,5 @@
 /inkscape/
 /libreoffice/
 /nautilus/
+/pulse/
 /user-dirs.locale
