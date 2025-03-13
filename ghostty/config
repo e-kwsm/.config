@@ -3,3 +3,7 @@ font-size = 18
 #font-feature = "-calt"
 font-feature = "-dlig"
 #font-feature = "-liga"
+
+keybind = ctrl+m=text:\x0D
+keybind = ctrl+i=text:\x09
+#keybind = ctrl+m=text:\x0D
