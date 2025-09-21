@@ -4,7 +4,8 @@ font-size = 18
 font-feature = "-dlig"
 #font-feature = "-liga"
 
-keybind = ctrl+m=text:\x0D
+keybind = ctrl+equal=unbind
 keybind = ctrl+i=text:\x09
-#keybind = ctrl+m=text:\x0D
+keybind = ctrl+m=text:\x0D
+
 clipboard-paste-protection = false
