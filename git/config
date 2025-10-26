@@ -35,6 +35,14 @@
 	ff = only
 [push]
 	default = simple
+[url "ssh://aur@aur.archlinux.org/"]
+	pushInsteadOf = https://aur.archlinux.org/
+[url "ssh://git@gist.github.com/"]
+	pushInsteadOf = https://gist.github.com/
+[url "ssh://git@github.com/"]
+	pushInsteadOf = https://github.com/
+[url "ssh://git@gitlab."]
+	pushInsteadOf = https://gitlab.
 [user]
 	name = Eisuke Kawashima
 	#email = e-kwsm@users.noreply.github.com
